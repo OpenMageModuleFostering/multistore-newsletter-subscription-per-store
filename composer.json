@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Multistore-Newsletter-Subscription-per-store",
+    "type": "magento-module",
+    "license": "OSL-v1.0",
+    "homepage": "",
+    "description": "Allow users to subscribe for multiple store with same email Id.",
+    "authors": [
+    {
+        "name": "magegeeks",
+        "email": "magegeeks@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

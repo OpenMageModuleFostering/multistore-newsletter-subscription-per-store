@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magegeeks
+ *
+ * Magegeeks's Mage_Newsletter customizations
+ *
+ * PHP Version 5
+ *
+ * @category  Magegeeks
+ * @package   Magegeeks_Perstorenewsletter
+ * @author    Magegeeks <magegeeks@gmail.com>
+ * @copyright Copyright (c) 2017 Magegeeks (http://www.magegeeks.in)
+ */
+-->
+<config>
+    <modules>
+        <Magegeeks_Perstorenewsletter>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Newsletter />
+            </depends>
+        </Magegeeks_Perstorenewsletter>
+    </modules>
+</config>

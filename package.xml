@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>Multistore-Newsletter-Subscription-per-store</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>OSL v1.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Allow users to subscribe for multiple store with same email Id.</summary>
+    <description>If you use Magento multi-store feature, you possibly know that visitors of the store cannot sign up for newsletters of all multi-stores. Store visitor will be able to sign up only for one store.&#xD;
+&#xD;
+Lets imagine that you have two multi-stores: one for Gifts and other for Chocolate. If some of your visitor will open Gifts store and sign up for Gifts newsletter, Magento will record it. However if the same visitor will come to Chocolate store the other day and submit his email in newsletter box, in this case Magento will remove his email from Gifts newsletter and add him to Chocolate newsletter. By default it is not possible to sign up for News of both stores.&#xD;
+&#xD;
+This extension will help you to overcome this limitation and allow your visitors to sign up for multi-store newsletters.</description>
+    <notes>Allow users to subscribe for multiple store with same email Id.</notes>
+    <authors><author><name>magegeeks</name><user>magegeeks</user><email>magegeeks@gmail.com</email></author></authors>
+    <date>2017-03-07</date>
+    <time>11:23:55</time>
+    <contents><target name="mageetc"><dir><dir name="modules"><file name="Magegeeks_Perstorenewsletter.xml" hash="b962e25eb1cd5fdb1bc7228e3ec8fd68"/></dir></dir></target><target name="magelocal"><dir name="Magegeeks"><dir name="Perstorenewsletter"><dir name="Model"><dir name="Mysql4"><file name="Subscriber.php" hash="e7eec77069a623771a050b2a57f655c1"/></dir></dir><dir name="etc"><file name="config.xml" hash="63c110d215f69e91f38c62f523885e36"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.5</max></php></required></dependencies>
+</package>

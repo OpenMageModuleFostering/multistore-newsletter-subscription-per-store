@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magegeeks_Perstorenewsletter>
+            <version>1.0</version>
+        </Magegeeks_Perstorenewsletter>
+    </modules>
+    <global>
+        <models>
+            <newsletter_mysql4>
+                <rewrite>
+                    <subscriber>Magegeeks_Perstorenewsletter_Model_Mysql4_Subscriber</subscriber>
+                </rewrite>
+            </newsletter_mysql4>
+        </models>
+    </global>
+</config>
